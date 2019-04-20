@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dashboard</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="static/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="static/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/css/util.css">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"> 
+    <link rel="stylesheet" type="text/css" href="static/css/custom.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+            <h1 class='margin0'>Masukkan Produk</h1>
+            <div class="wrap-dashboard p-l-55 p-r-55 p-b-54 row">
+                <div class='col-md-3'></div>
+                <div class='col-md-6'>
+                <form action="/process">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                        <label >Tanggal</label>
+                        <input type="text" class="form-control no-bor"  placeholder="Tanggal">
+                        </div>
+                        <div class="form-group col-md-6">
+                        <label>Waktu</label>
+                        <input type="text" class="form-control no-bor" placeholder="Waktu">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label >Id Operator</label>
+                        <input type="text" class="form-control no-bor" placeholder="Id">
+                    </div>
+                    <div class="form-group">
+                        <label >Produk</label>
+                        <select class="form-control" >
+                            <option>Produk 1</option>
+                            <option>Produk 2</option>
+                            <option>Produk 3</option>
+                            <option>Produk 4</option>
+                            <option>Produk 5</option>
+                        </select>
+                    </div>
+                    <div class="float-right">
+                        <a href="/dashboard" class="btn btn-danger">Batal</a>
+                        <button type="submit" class="btn btn-primary">Tambah</button>
+                    </div>
+                </form>
+                </div>
+
+			</div>
+		</div>
+	</div>	
+
+</body>
+</html>
